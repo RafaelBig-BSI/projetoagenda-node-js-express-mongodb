@@ -1,0 +1,19 @@
+                    Significado das tags no EJS
+
+<% Controle de Fluxo (if/else, for... ) %>
+
+<%= Imprime escapando caracteres %> //como se fosse interpolar {} igual no React
+
+<%- Imprime sem escapar caracteres %>
+
+<# Comentário %>
+
+<%- include('CAMINHO/ARQUIVO'); %>
+
+//Exemplo de uso (tem que fechar as chaves com as tags)
+<% if(algumaCoisa) { %>
+    <%= exibe algo %>
+
+<% } else { %>
+    <%= exibe outra coisa %>
+<% } %>
